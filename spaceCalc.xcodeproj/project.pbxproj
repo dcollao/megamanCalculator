@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B382A1961D5E12F80031A013 /* warp.wav in Resources */ = {isa = PBXBuildFile; fileRef = B382A1951D5E12F80031A013 /* warp.wav */; };
+		B382A1981D5E46610031A013 /* launcher.wav in Resources */ = {isa = PBXBuildFile; fileRef = B382A1971D5E46610031A013 /* launcher.wav */; };
+		B382A19A1D5E46A50031A013 /* buster.wav in Resources */ = {isa = PBXBuildFile; fileRef = B382A1991D5E46A50031A013 /* buster.wav */; };
 		B39DFC351D5D7BB100712021 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFC341D5D7BB100712021 /* AppDelegate.swift */; };
 		B39DFC371D5D7BB100712021 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39DFC361D5D7BB100712021 /* ViewController.swift */; };
 		B39DFC3A1D5D7BB100712021 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39DFC381D5D7BB100712021 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B382A1951D5E12F80031A013 /* warp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = warp.wav; path = ../warp.wav; sourceTree = "<group>"; };
+		B382A1971D5E46610031A013 /* launcher.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = launcher.wav; sourceTree = "<group>"; };
+		B382A1991D5E46A50031A013 /* buster.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = buster.wav; sourceTree = "<group>"; };
 		B39DFC311D5D7BB100712021 /* spaceCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39DFC341D5D7BB100712021 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B39DFC361D5D7BB100712021 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				B39DFC3B1D5D7BB100712021 /* Assets.xcassets */,
 				B39DFC3D1D5D7BB100712021 /* LaunchScreen.storyboard */,
 				B39DFC401D5D7BB100712021 /* Info.plist */,
+				B382A1971D5E46610031A013 /* launcher.wav */,
+				B382A1991D5E46A50031A013 /* buster.wav */,
+				B382A1951D5E12F80031A013 /* warp.wav */,
 			);
 			path = spaceCalc;
 			sourceTree = "<group>";
@@ -124,6 +133,9 @@
 			files = (
 				B39DFC3F1D5D7BB100712021 /* LaunchScreen.storyboard in Resources */,
 				B39DFC3C1D5D7BB100712021 /* Assets.xcassets in Resources */,
+				B382A1981D5E46610031A013 /* launcher.wav in Resources */,
+				B382A19A1D5E46A50031A013 /* buster.wav in Resources */,
+				B382A1961D5E12F80031A013 /* warp.wav in Resources */,
 				B39DFC3A1D5D7BB100712021 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +300,7 @@
 				B39DFC451D5D7BB100712021 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
